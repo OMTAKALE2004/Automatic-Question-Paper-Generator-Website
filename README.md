@@ -68,7 +68,11 @@ This project can create quetions papers automatically on providing some input su
 - CSS
 
 ## Project Flowchart
-![logo](
+![logo](https://github.com/OMTAKALE2004/Automatic-Question-Paper-Generator-Website/blob/main/Screenshot%202023-09-06%20204220.png)
+
+## Project Screenshots
+- First webpage
+![logo]()
 
 
 
