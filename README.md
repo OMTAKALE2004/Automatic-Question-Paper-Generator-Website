@@ -72,7 +72,7 @@ This project can create quetions papers automatically on providing some input su
 
 ## Project Screenshots
 - First webpage
-![logo]()
+![logo1](https://github.com/OMTAKALE2004/Automatic-Question-Paper-Generator-Website/blob/main/input%201.png)
 
 
 
