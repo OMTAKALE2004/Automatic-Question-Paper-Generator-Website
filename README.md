@@ -79,6 +79,18 @@ This project can create quetions papers automatically on providing some input su
   ![logo2](https://github.com/OMTAKALE2004/Automatic-Question-Paper-Generator-Website/blob/main/input%202.png)
 
 
+## Project Output 
+- This is the final output and this is the format in which Question paper will be generated.
+
+
+
+![logo3](https://github.com/OMTAKALE2004/Automatic-Question-Paper-Generator-Website/blob/main/output.png)
+
+
+
+
+
+
 
 
 
