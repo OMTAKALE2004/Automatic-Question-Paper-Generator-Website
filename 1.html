@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Automatic Paper</title>
+    <link rel="stylesheet" href="1.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form action="exp1.php" method="post" enctype="multipart/form-data">
+      <label> Enter college name: </label>
+      <input type="text" class="text" name="collname" required /><br />
+      <label class="image"> Upload logo: </label>
+      <input type="file" class="file" name="image" required /><br />
+      <br />
+      <label> Enter Exam name: </label>
+      <input type="text" class="text" name="exname" required /><br />
+      <label> Exam Duration: </label>
+      <input type="time" name="time" required /><br />
+      <label> Enter date: </label>
+      <input type="date" name="date" id="inputdate" required /><br />
+      <label>Choose Subject :</label>
+      <select name="subject" id="sub" class="INPUT" required>
+        <option disabled hidden selected class="place">
+          -----Subject-----
+        </option>
+        <option>Analysis of Algorithms</option>
+        <option>Micro Processor</option>
+        <option>Database Management System</option>
+        <option>Operating System</option>
+        <option>Engineering Maths 4</option></select
+      ><br />
+      <label> No. of main questions: </label>
+      <input type="number" class="number" name="numfields" required />
+
+      <br />
+      <br />
+      <div class="backbtn">
+        <input type="submit" class="btn" value="Submit" />
+      </div>
+    </form>
+  </body>
+  <script>
+    $(function () {
+      var dtToday = new Date();
+
+      var month = dtToday.getMonth() + 1;
+      var day = dtToday.getDate();
+      var year = dtToday.getFullYear();
+      if (month < 10) month = "0" + month.toString();
+      if (day < 10) day = "0" + day.toString();
+
+      var maxDate = year + "-" + month + "-" + day;
+      alert(maxDate);
+      $("#inputdate").attr("min", maxDate);
+    });
+  </script>
+</html>
